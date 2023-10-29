@@ -13,8 +13,8 @@ This Python script serves as a basic keylogger that monitors keyboard input. It 
 ## Usage
 1. Install the required libraries using 'pip':
    
-  pip install pynput
-  pip install smtplib
+  <pre>pip install pynput<br>
+  <pre>pip install smtplib
   
 2. Replace the placeholder email addresses (senderEmail and receiver_email) with your own.
    
