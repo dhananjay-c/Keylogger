@@ -1,4 +1,4 @@
-# Keylogger with Email Notification
+# Keylogger with Email Reporting
 This Python script serves as a basic keylogger that monitors keyboard input. It records the keys pressed and periodically sends them via email to a specified recipient. Please use this code responsibly and ethically.
 
 
